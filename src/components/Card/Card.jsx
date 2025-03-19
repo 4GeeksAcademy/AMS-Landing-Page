@@ -1,6 +1,5 @@
 import React from 'react';
-import './Card.css';  // Importamos el archivo CSS específico del Card
-
+import './Card.css'; 
 const Card = ({ title, description, buttonText }) => {
   return (
     <div className="card h-100">
